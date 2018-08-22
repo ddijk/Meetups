@@ -1,0 +1,16 @@
+# start image
+docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube
+
+# start existing container
+docker start sonarqube
+
+
+gradle sonarqube
+
+
+# Stop jenkins
+sudo launchctl unload /Library/LaunchDaemons/org.jenkins-ci.plist
+
+# Start jenkins
+sudo launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist
+
