@@ -1,14 +1,9 @@
-# Start SonarQube on Docker
-docker start sonarqube
+# Start Jenskins and SonarQube on Docker
+cd ~/_Study/Docker/jenkins_sonar
+docker-compose up
 
-# Quality Gate
-met herhaaldelijk "git revert <previous> kun je wisselen tussen "gate-fail" en "gate-pass" situaties.
 
 # JENKINS
-
-# first time Jenkins start:
-cd ~/Tools/Jenkins
-java8
-java -Djava.net.preferIPv4Stack=true -jar jenkins.war --httpPort=9990
+account: admin/admin
 
 # Calculator project, use alias 'calc'
