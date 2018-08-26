@@ -1,0 +1,6 @@
+Child class fields should not shadow parent class fields
+Short-circuit logic should be used in boolean contexts
+Switch cases should end with an unconditional "break" statement
+"default" clauses should be last
+
+
