@@ -1,0 +1,10 @@
+
+https://www.sonarqube.org/
+
+https://github.com/SonarSource/sonar-examples
+
+# SonarLint is an extension to your favorite IDE that provides on-the-fly feedback to developers on new bugs and quality issues injected into their code.
+http://www.sonarlint.org/
+
+# Free for open source, paid for private projects:
+https://sonarcloud.io
