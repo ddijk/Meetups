@@ -1,0 +1,9 @@
+# Start Jenskins and SonarQube on Docker
+cd /Users/dickdijk/_Study/Docker/jenkins_sonar/jenkins_sonar
+docker-compose up
+
+
+# JENKINS
+account: admin/admin
+
+# Calculator project, use alias 'calc'
